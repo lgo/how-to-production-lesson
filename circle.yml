@@ -9,3 +9,8 @@ dependencies:
 test:
   override:
     - python test.py
+deployment:
+  production:
+    branch: production
+    commands:
+      - ./deploy.sh
