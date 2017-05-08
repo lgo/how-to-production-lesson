@@ -5,4 +5,8 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello, World!'
 
+@app.route('/exception')
+def exception_endpoint():
+    raise Exception("Uh oh, world")
+
 app.run(host='0.0.0.0', port=5000)
