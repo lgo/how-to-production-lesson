@@ -5,7 +5,7 @@ from bugsnag.flask import handle_exceptions
 
 # Configure Bugsnag
 bugsnag.configure(
-  api_key = "c7dd55a21f726e33ff9658568b6aac42",
+  api_key = "TOKEN",
   project_root = "/path/to/your/app",
 )
 
@@ -18,9 +18,9 @@ import random
 
 opbeat = Opbeat(
     app,
-    organization_id='2b89a4ba846e4168badfff0cd7014ad0',
-    app_id='7c28c65c00',
-    secret_token='005b0c5022183aeacdafe45cd754e99e85c99558',
+    organization_id='PRIVATE',
+    app_id='DATA',
+    secret_token='TOKEN',
 )
 
 @app.route('/')
