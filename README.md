@@ -63,7 +63,7 @@ Deployments can be done on push by [CircleCI](circleci.com), which also can run 
 ### CDN (Content delivery network)
 Just like how serving static assets from Nginx can save a lot on speed, you can take it a step further and have static assets served by a provider who can cache them. Cloudflare has configuration to do this, where they'll serve an asset for a set amount of time, often days, before checking if there's a new one. You can force an update with CDN providers.
 
-###Command cheat sheet
+### Command cheat sheet
 ```
 apt-get install <name>
    If you need to find an application, go ahead and Google it. Searching for "Ubuntu install X" will often help.
